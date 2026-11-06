@@ -1,0 +1,54 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="theme-color" content="#fbf8f0">
+  <meta name="description" content="A little playlist, made with care for Dishaaaa ji.">
+  <title>For Dishaaaa Ji ♡</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;600;700&family=Playfair+Display:ital,wght@0,500;0,600;1,500;1,600&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <div class="glow g1" aria-hidden="true"></div>
+  <div class="glow g2" aria-hidden="true"></div>
+  <main class="wrap">
+    <header class="hero">
+      <div class="eyebrow">A LITTLE PLAYLIST · A LOT OF FEELINGS</div>
+      <div class="record" aria-hidden="true"><div class="record-core">♡</div></div>
+      <h1>For my <em>Dishaaaa ji</em></h1>
+      <p class="intro">10 songs, in a little story — and much much love to you. ♡</p>
+      <div class="tiny">MADE WITH CARE BY ME FOR DISHAAAA JI ♡</div>
+    </header>
+
+    <section class="now" id="playerPanel" aria-label="Music player">
+      <div class="nowtop"><span>NOW PLAYING</span><span id="trackCount">PICK A SONG ♡</span></div>
+      <div class="player-meta">
+        <div class="player-disc" aria-hidden="true">♫</div>
+        <div class="player-copy">
+          <div id="nowTitle" class="now-title">Your little soundtrack</div>
+          <div id="nowArtist" class="now-artist">Choose any song below to begin</div>
+        </div>
+      </div>
+      <audio id="audioPlayer" controls preload="none" aria-label="Selected song audio player"></audio>
+      <div id="playerMessage" class="player-message" role="status">Tap any song — it will play right here, without opening YouTube. ♡</div>
+    </section>
+
+    <section class="playlist-head">
+      <div><div class="eyebrow">THE LITTLE SOUNDTRACK</div><h2>10 reasons to smile</h2></div>
+      <div class="note">tap a song<br>to play ♡</div>
+    </section>
+    <section id="songs" class="songs" aria-label="Playlist"></section>
+
+    <footer>
+      <div class="footer-heart">♡</div>
+      <p>And if one of these songs makes you smile,<br>that’s my favourite part of this playlist.</p>
+      <strong>— Daksh</strong>
+      <small>NO PRESSURE. JUST A LITTLE SOMETHING FOR YOU, ITS OUR SMALL PLAYLIST</small>
+    </footer>
+  </main>
+  <script src="script.js"></script>
+</body>
+</html>
